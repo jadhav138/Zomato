@@ -1,5 +1,10 @@
 body{
    background-color:cornsilk; 
+   /* display:block;
+   margin-left: auto;
+   margin-right: auto; */
+   /* text-align: center; */
+ 
   
 }
 /* HEADDER css */
@@ -25,35 +30,53 @@ body{
      /* margin-top:-60px; */
     margin-left: 80%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    font-size:25px;
-    border: none;
+    font-size:22px;
+    border:3px solid black;
     background: none;
-     color:white; 
+    padding:10px;
+  
+     /* color:white;  */
 
    } 
    #login:hover{
-    background-color: black;
+    /* background-color:none; */
+    border:3px solid white; 
+    color:white;
+    text-decoration: underline;
+    
    }
 
    #sign{
-    font-size:22px;
+     font-size:20px; 
     border:none;
-     color:white; 
+     /* color:white;  */
     /* background-color:black; */
-     /* border:3px solid black;  */
-     background:none;
+      border:3px solid black;  
+      background:none; 
+      padding:10px;
+      
     /* border-radius:50px; */
     
 
    }
    #sign:hover{
-    background-color: black;
+      /* background-color: none;  */
+       border:3px solid white; 
+      color:white;
+      text-decoration:underline;
 
    }
+   /* #account{
+    margin-left:90%;
+    font-size:22px;
+    border:3px solid black;
+
+   } */
   
 
       
   .s-logo{
+    margin-top:10px;
       width:50px;
     height:50px;  
       margin:0px; 
@@ -65,27 +88,23 @@ body{
 /* IMGBAR css */
  #imgsearch{
     width:100%;
-    height:750px;
+    height:650px;
     border:1px solid bisque;
     background-image :url(imgfold/food.png);
-    /* https://images.unsplash.com/photo-1611601184963-9d1de9b79ff3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 */
-  
-
-
 background-repeat:no-repeat;    
          /* background-size:cover;       */
  background-size: 100%  900px;    
- /* opacity:0.5; */
-
+  /* opacity:0.5;  */
+ 
 }
 
 #e-logo{
     width:250px;
     height:250px;
-    background-color:white;
+    background-color:rgba(255, 251, 251, 0.822);
     border-radius:200px;
     margin-left:43%;
-    margin-top:10%;
+    margin-top:5%;
     position:absolute;
     opacity: 10px;
 }
@@ -95,16 +114,21 @@ background-repeat:no-repeat;
     margin-left:90px;
     margin-top:60px;
     position:absolute;
-   
-
+  
+}
+#e-logo :hover{
+  opacity: 0.3;
+  transform: scaleX(-1);
 
 }
+
+
 #text{
     margin-left:30%;
-    margin-top:30%;
+    margin-top:17%;
     font-size:40px;
     font-weight:bolder;
-    color:black;
+    color:white;
     
   
 }
@@ -113,8 +137,8 @@ background-repeat:no-repeat;
     
     width:400px;
     height:60px;
-    margin-left:15%;
-     margin-top:40%;
+    margin-left:19%;
+     margin-top:27%;
     
     
 }
@@ -130,8 +154,20 @@ background-repeat:no-repeat;
    
      width:100%;
     /* height:500px;
-    border:3px double blue; */ 
-    
+    border:3px double blue; */
+}
+#place{
+  font-size: 20px;
+  padding:9px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  
+}
+#rest{
+  font-size: 20px;
+  padding:9px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 
 }
 #quick{
@@ -191,7 +227,9 @@ background-repeat:no-repeat;
    
 } 
 img:hover {
-  opacity: 0.5;
+  /* opacity: 0.5; */
+  transform: scaleX(-1);
+ 
 }
 
 
@@ -202,6 +240,7 @@ img:hover {
   #fotter{
     width:50%px;
     height:150px;
-    border:3px dotted black; 
+    border:3px double black; 
+    background-color: #8C96AB;
   }
 
