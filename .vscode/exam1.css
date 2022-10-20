@@ -1,0 +1,247 @@
+/* .first:hover{
+border:2px solid blue;
+display: absolute;
+} */
+.border{
+      background-color: #CE0505;  
+       border: 2px solid black; 
+        height: 80px; 
+        margin:70px;
+ }  
+ 
+
+ #e-logo{
+    width: 50px;
+    height:50px;
+    background-color: white;
+    margin-left:8%;
+    margin-top:15px;
+    border-radius: 200px;
+    /* position: absolute; */
+   
+
+   
+}
+#e-logo>span{
+    font-size: 40px;
+    /* font-weight: bolder; */
+    color:#CE0505;
+    margin-left:13px;
+    margin-top:2px;
+    position: absolute;
+}
+#account{
+    margin-left:70%;
+    margin-top:-4%;
+
+}
+#login{
+    font-size:20px;
+    border:none;
+    background-color:#CE0505;
+    color: #FFFFFF;
+    padding:10px;
+    margin: 20px;
+
+}
+#login:hover{
+border:2px solid blue;
+}
+#creat{
+    width:150px;
+    font-size:15p;
+    padding:10px;
+    letter-spacing: 0px;
+    background-color:#CE0505;
+    color: #FFFFFF;
+    border:1px solid  #FFFFFF;
+    border-radius: 3px;
+}
+#creat:hover{
+    border:2px solid blue;
+
+}
+#heading{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #192F60;
+    margin-left:11%;
+    margin-top: -2%;
+}
+.container{
+    /* border:2px solid black; */
+    width:15%;
+    height:650px;
+    margin-left:11%
+}
+.container:hover{
+    border:2px solid blue;
+}
+#filt{
+    font-size: 20px;
+    font-weight: bold;
+    color: #192F60;
+    margin-left:8%;
+    margin-bottom:10px;
+}
+#select{
+    font-size: 20px;
+    color: #192F60;
+    margin-left:8%;
+
+}
+#location{
+    width:220px;
+    padding:10px;
+    border:2px solid #8C96AB;
+    color:#8C96AB;
+    border-radius: 5px;
+    
+}
+#Cuisine{
+    color: #192F60;
+    margin-left:8%;
+    font-size: 20px;
+}
+#checkbox{
+    color:#8C96AB;
+    margin-bottom: 10px;
+    margin-left:8%;
+    
+}
+#checkbox>input{
+    color:blue;
+}
+#cost{
+    color: #192F60;
+    margin-left:3%;
+    font-size: 20px;
+
+}
+.rate{
+    color:#8C96AB;
+    margin-bottom: 10px;
+    margin-left:8%;
+
+}
+#sort{
+    color: #192F60;
+   font-weight: bold;
+    margin-left:8%;
+    font-size: 20px;
+
+
+}
+.last{
+    color:#8C96AB;
+    margin-left:3%;
+    font-size: 20px;
+
+
+}
+.space{
+    /* border:2px solid black; */
+    width:50%;
+    height:400px;
+    margin-left:28%;
+    margin-top:-39%;
+}
+#sorry{
+    color:#192F60;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top:22%;
+    margin-left:32%;
+
+}
+.space:hover{
+    border:2px solid blue;
+    background-color: white;
+
+}
+@media screen and (max-width:1500px){
+    #login{
+        margin-left:-10px;
+         margin-top:-7%; 
+
+    }
+    .space{
+        /* margin-top:-70%; */
+        margin-left:35%;
+    }
+
+    
+}
+
+@media screen and (max-width:950px){
+    #login{
+         margin-left:-80px; 
+         margin-top:-50px;
+    }
+    #sorry{
+        font-size: 30px;
+        margin-top:-50%;
+
+    }
+}
+@media screen and (max-width:750px){
+    #login{
+        margin-left:-120px;
+        margin-top:-50%;
+    }
+    .space{
+        
+          /* margin-top:-90%;   */
+    }
+    #sorry{
+        font-size:20px;
+
+    }
+}
+@media screen and (max-width:650px){
+    .border{
+        height:40px;
+    }
+    #e-logo{
+        width:30px;
+        height: 30px;
+        margin-top:2px;
+       
+    }
+    #e-logo>span{
+        font-size:19px;
+        font-weight: bolder;
+        margin-left:1%;
+        
+
+    }
+    #login{
+        font-size: 15px;
+        margin-left:-130px;
+         margin-top:2px; 
+         padding:0px;
+         font-weight:bold;
+    
+    }
+    #creat{
+        font-size:12px;
+        width:100px;
+        padding:0px;
+        margin-left:10px;
+        margin-top:-1px;
+        font-weight:bold;
+    }
+    #heading{
+        font-size:25px;
+    }
+    .space{
+        
+        margin-top:-90%;
+        margin-left:35%;
+
+    }
+    #sorry{
+        font-size: 20px;
+
+    }
+}

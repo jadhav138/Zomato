@@ -80,6 +80,8 @@ body{
       width:50px;
     height:50px;  
       margin:0px; 
+    
+
      
      /* margin-left:300px;  */
 
@@ -117,7 +119,7 @@ background-repeat:no-repeat;
   
 }
 #e-logo :hover{
-  opacity: 0.3;
+  opacity: 0.5;
   transform: scaleX(-1);
 
 }
@@ -125,7 +127,7 @@ background-repeat:no-repeat;
 
 #text{
     margin-left:30%;
-    margin-top:17%;
+    margin-top:22%;
     font-size:40px;
     font-weight:bolder;
     color:white;
@@ -157,15 +159,15 @@ background-repeat:no-repeat;
     border:3px double blue; */
 }
 #place{
-  font-size: 20px;
-  padding:9px;
+  font-size: 15px;
+   padding:5px; 
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
   
 }
 #rest{
-  font-size: 20px;
-  padding:9px;
+  font-size: 15px;
+   padding:5px; 
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
 
@@ -235,12 +237,110 @@ img:hover {
 
 
 
-
 /* fotter css */
-  #fotter{
+  /* #fotter{
     width:50%px;
-    height:150px;
+    height:200px;
     border:3px double black; 
-    background-color: #8C96AB;
+    background-color:crimson;
+    position:inline;
+  } */
+  .fotter{
+    height:300px;
+    border:3px double black;
+    background-color: #192F60; 
+    letter-spacing: 0px;
+  
+
+    
+    font-size: 20px;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-weight: bolder;
+     text-align: center; 
+     
+  } 
+  #develop{
+     text-align: center; 
+
   }
+  .fot{
+     display:inline-block; 
+     width:200px;
+     height:100px;
+     /* background-color: beige; */
+      text-align: center; 
+     
+     margin-top:1%;
+
+  }
+  .fot{
+    border-left:5px solid black;
+    height:70px;
+
+  }
+  
+
+ 
+
+   @media screen and (max-width:1000px){
+    #icon{
+      margin-left:10%;
+
+    }
+    .s-logo{
+    
+      margin-left:10%;
+    }
+    #e-logo{
+      margin-left:20%;
+      margin-top:10%;
+    }
+    #place{
+      margin-left:10px;
+       margin-top:50%;
+
+    }
+     #text{
+      margin-top:30%;
+      margin-left:20px;
+    } 
+
+  }
+  
+
+@media screen and (max-width:1500px){
+#place{
+  margin-left:20px;
+}
+}
+@media screen and (max-width:1300px){
+#e-logo{
+  margin-top:2%px;
+}
+ #place{
+  
+  margin-top:40%;
+} 
+#text{
+  margin-top:30%;
+}
+} 
+@media screen and(max-width:1500px){
+  #e-logo{
+    text-align: center;
+  }
+  #text{
+    margin-left:10px;
+
+  }
+  /* #place{
+    margin-top:60%;
+  } */
+}
+
+
+
+
+
+
 
